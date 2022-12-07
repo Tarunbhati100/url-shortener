@@ -1,0 +1,30 @@
+{
+  "name": "urlshortner",
+  "version": "1.0.0",
+  "description": "used to shorten the urls and can be used to comprees any url into small usable links",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tarunbhati100/urlshortner.git"
+  },
+  "author": "Tarun Bhati",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tarunbhati100/urlshortner/issues"
+  },
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "connect-flash": "^0.1.1",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "http-errors": "^1.8.0",
+    "mongoose": "^5.10.5",
+    "nodemon": "^2.0.20",
+    "shortid": "^2.2.15"
+  },
+  "homepage": "https://github.com/Tarunbhati100/urlshortner#readme"
+}
